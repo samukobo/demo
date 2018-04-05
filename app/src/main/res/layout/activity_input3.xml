@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.sam.demo.InputActivity3">
+
+    <TextView
+        android:id="@+id/textView_input3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:drawableTop="@drawable/ic_action_input"
+        android:text="@string/inputPt"
+        android:textColor="#fff"
+        android:textSize="28sp" />
+
+    <CalendarView
+        android:id="@+id/calendarView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_deadline2"
+        android:layout_centerHorizontal="true"
+        android:background="#fff" />
+
+    <TextView
+        android:id="@+id/textView_deadline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_input3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:text="@string/proposedDeadline"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button_finish2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/calendarView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:background="@color/colorAccent"
+        android:text="@string/finish"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+</RelativeLayout>

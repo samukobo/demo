@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.sam.demo.MenuActivity">
+
+    <TextView
+        android:id="@+id/textView_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/welcome"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button_account"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView_welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:drawableTop="@drawable/ic_action_name"
+        android:text="@string/accountText"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_pt"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/button_account"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:drawableTop="@drawable/ic_action_pt"
+        android:text="@string/ptString"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button_view"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/button_pt"
+        android:layout_alignStart="@+id/button_pt"
+        android:layout_below="@+id/button_pt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:drawableTop="@drawable/ic_action_view"
+        android:text="@string/view_Text"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/button_view"
+        android:layout_alignStart="@+id/button_view"
+        android:layout_below="@+id/button_view"
+        android:layout_marginTop="22dp"
+        android:drawableTop="@drawable/ic_action_exit"
+        android:text="@string/Logout"
+        android:textSize="14sp" />
+
+</RelativeLayout>

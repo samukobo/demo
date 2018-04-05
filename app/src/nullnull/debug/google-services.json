@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "653778694971",
+    "firebase_url": "https://worklodi.firebaseio.com",
+    "project_id": "worklodi",
+    "storage_bucket": "worklodi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653778694971:android:9a62ffbbfb56aa61",
+        "android_client_info": {
+          "package_name": "com.example.sam.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653778694971-mk5krd1mfde6vde3tn7gc79eebnvkjb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTPZ6asAaUqj0LCGIIkcTPaBNr7kzWGEM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

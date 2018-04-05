@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.sam.demo.AccountActivity">
+
+    <TextView
+        android:id="@+id/textView_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:drawableTop="@drawable/ic_action_user"
+        android:text="@string/accountWelcome"
+        android:textColor="#fff"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView_accType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_account"
+        android:layout_alignStart="@+id/textView_account"
+        android:layout_below="@+id/textView_account"
+        android:layout_marginTop="46dp"
+        android:text="@string/accTypeText"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView_accName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_accType"
+        android:layout_alignStart="@+id/textView_accType"
+        android:layout_below="@+id/textView_accType"
+        android:layout_marginTop="39dp"
+        android:text="@string/fullName"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView_accUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_accName"
+        android:layout_alignStart="@+id/textView_accName"
+        android:layout_centerVertical="true"
+        android:text="@string/userText"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView_accType2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView_accType"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_toEndOf="@+id/textView_accType"
+        android:layout_toRightOf="@+id/textView_accType"
+        android:text="@string/admin"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView_accName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_accName"
+        android:layout_alignBottom="@+id/textView_accName"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/textView_accUser"
+        android:layout_toRightOf="@+id/textView_accUser"
+        android:text="@string/nameSam"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView_accUser2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView_accUser"
+        android:layout_alignBottom="@+id/textView_accUser"
+        android:layout_alignLeft="@+id/textView_accName2"
+        android:layout_alignStart="@+id/textView_accName2"
+        android:text="@string/user1"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+</RelativeLayout>

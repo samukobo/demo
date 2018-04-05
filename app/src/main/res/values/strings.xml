@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="userText">Username</string>
+    <string name="passText">Password</string>
+    <string name="passTextR">Repeat Password</string>
+    <string name="logText">Login</string>
+    <string name="regText">Sign Up</string>
+    <string name="textLogo">Logo</string>
+    <string name="loginSuccess">Login Successful</string>
+    <string name="loginFail">Incorrect username or password</string>
+    <string name="noError"> </string>
+    <string name="memType">Membership Type</string>
+    <string name="fullName">Full Name</string>
+    <string name="signUpFail">Please set a value for all required fields.</string>
+    <string name="signUpFailPass">The entered passwords do not match.</string>
+    <string name="welcome">Welcome to Worklodi!</string>
+    <string name="ptString">PT</string>
+    <string name="view_Text">View</string>
+    <string name="Logout">Log out</string>
+    <string name="Help">Help</string>
+    <string name="accountText">Your Account</string>
+    <string name="accountWelcome">Welcome to your account</string>
+    <string name="accTypeText">Account Type</string>
+    <string name="admin">Administrator</string>
+    <string name="nameSam">AGUILAR, Samuel Kirby H.</string>
+    <string name="user1">user1</string>
+    <string name="inputPt">Input a Performance Task</string>
+    <string name="strands">Strands</string>
+    <string name="STEM">STEM</string>
+    <string name="ABM">ABM</string>
+    <string name="HUMSS">HUMSS</string>
+    <string name="GAS">GAS</string>
+    <string name="subjects">Subjects</string>
+    <string name="subPhy">GNPHY2</string>
+    <string name="subCle">CLEDU4</string>
+    <string name="subInq">INQUIR</string>
+    <string name="subRec">RECAPP</string>
+    <string name="subMed">MEDLIT</string>
+    <string name="subEnt">ENTREP</string>
+    <string name="subPer">PERDEV</string>
+    <string name="subPeh">PEHLT4</string>
+    <string name="next">Next</string>
+    <string name="ptName">Name of Performance Task</string>
+    <string name="deadline">Deadline</string>
+    <string name="proposedDeadline">Proposed Deadline</string>
+    <string name="daysToComplete">Weeks to Complete</string>
+    <string name="finish">Finish</string>
+    <string name="errorBox">Please check at least one box for both fields.</string>
+    <string name="masterString">zzzzzzzzzzzzzzz</string>
+    <string name="addPT">Enter the Performance Task</string>
+    <string name="viewPT">View all Performance Tasks</string>
+    <string name="loadPT">Load all preset Performance Tasks</string>
+    <string name="updatePT">Update a Performance Task based on id</string>
+    <string name="deletePT">Delete a Performance Task</string>
+    <string name="id">id</string>
+
+
+    <string-array name="memberTypes">
+        <item>"Faculty Member"</item>
+        <item>"Class President"</item>
+        <item>"Vice President"</item>
+    </string-array>
+
+    <string-array name="dayNums">
+        <item>1 week</item>
+        <item>2 weeks</item>
+        <item>3 weeks</item>
+        <item>4 weeks</item>
+        <item>5 weeks</item>
+        <item>6 weeks</item>
+        <item>7 weeks</item>
+        <item>8 weeks</item>
+    </string-array>
+
+    <string-array name="months">
+        <item>Month 1</item>
+        <item>Month 2</item>
+        <item>Month 3</item>
+        <item>Month 4</item>
+        <item>Month 5</item>
+    </string-array>
+
+    <string-array name="weeks">
+        <item>Week 1</item>
+        <item>Week 2</item>
+        <item>Week 3</item>
+        <item>Week 4</item>
+    </string-array>
+
+    <string-array name="subjects">
+        <item>N/A</item>
+        <item>GNPHY2</item>
+        <item>CLEDU4</item>
+        <item>INQUIR</item>
+        <item>MEDLIT</item>
+        <item>ENTREP</item>
+        <item>RECAPP</item>
+        <item>PERDEV</item>
+        <item>PEHLT4</item>
+    </string-array>
+
+    <string-array name="deadlines">
+        <item>Month 1 Week 1</item>
+        <item>Month 1 Week 2</item>
+        <item>Month 1 Week 3</item>
+        <item>Month 1 Week 4</item>
+        <item>Month 2 Week 1</item>
+        <item>Month 2 Week 2</item>
+        <item>Month 2 Week 3</item>
+        <item>Month 2 Week 4</item>
+        <item>Month 3 Week 1</item>
+        <item>Month 3 Week 2</item>
+        <item>Month 3 Week 3</item>
+        <item>Month 3 Week 4</item>
+        <item>Month 4 Week 1</item>
+        <item>Month 4 Week 2</item>
+        <item>Month 4 Week 3</item>
+        <item>Month 4 Week 4</item>
+        <item>Month 5 Week 1</item>
+        <item>Month 5 Week 2</item>
+        <item>Month 5 Week 3</item>
+        <item>Month 5 Week 4</item>
+    </string-array>
+
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="action_settings">Settings</string>
+</resources>

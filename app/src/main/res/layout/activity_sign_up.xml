@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.sam.demo.signUpActivity">
+
+    <TextView
+        android:id="@+id/textView_SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:drawableTop="@drawable/ic_action_sign"
+        android:textColor="#fff"
+        android:text="@string/regText"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView_warningFields"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_SignUp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="#d73232"
+        android:text="@string/noError" />
+
+    <Spinner
+        android:id="@+id/spinner_memType"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/editText_signUpName"
+        android:layout_alignStart="@+id/editText_signUpName"
+        android:layout_below="@+id/textView_warningFields"
+        android:background="#fff"
+        android:paddingLeft="3dp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editText_signUpName"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/spinner_memType"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:background="#fff"
+        android:hint="@string/fullName"
+        android:paddingLeft="3dp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_signUpUser"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/editText_signUpName"
+        android:layout_alignStart="@+id/editText_signUpName"
+        android:layout_below="@+id/editText_signUpName"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:background="#fff"
+        android:hint="@string/userText"
+        android:paddingLeft="3dp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_signUpPass"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/editText_signUpUser"
+        android:layout_alignStart="@+id/editText_signUpUser"
+        android:layout_below="@+id/editText_signUpUser"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:background="#fff"
+        android:hint="@string/passText"
+        android:paddingLeft="3dp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_signUpPass2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/editText_signUpPass"
+        android:layout_alignStart="@+id/editText_signUpPass"
+        android:layout_below="@+id/editText_signUpPass"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:background="#fff"
+        android:hint="@string/passTextR"
+        android:paddingLeft="3dp"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button_regreg"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/editText_signUpPass2"
+        android:layout_alignStart="@+id/editText_signUpPass2"
+        android:layout_below="@+id/editText_signUpPass2"
+        android:layout_marginTop="19dp"
+        android:background="@color/colorAccent"
+        android:text="@string/regText"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+</RelativeLayout>

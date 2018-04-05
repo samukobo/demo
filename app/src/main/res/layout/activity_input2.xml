@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.sam.demo.InputActivity2">
+
+    <TextView
+        android:id="@+id/textView_input2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="@string/inputPt"
+        android:textColor="#fff"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/editText_taskId"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView_input2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="@string/ptName"
+        android:inputType="textPersonName"
+        android:paddingLeft="3dp"
+        android:text="@string/noError" />
+
+    <TextView
+        android:id="@+id/textView_daysToComp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_proposed_deadline"
+        android:layout_alignStart="@+id/textView_proposed_deadline"
+        android:layout_below="@+id/editText_taskId"
+        android:layout_marginTop="14dp"
+        android:text="@string/daysToComplete"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinner_daysComp"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView_daysToComp"
+        android:layout_centerHorizontal="true"
+        android:background="#fff"
+        android:paddingLeft="3dp" />
+
+    <TextView
+        android:id="@+id/textView_proposed_deadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_daysComp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:text="@string/proposedDeadline"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinner_deadline_month"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/spinner_daysComp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:background="#fff"
+        android:paddingLeft="3dp" />
+
+    <Button
+        android:id="@+id/button_next2"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/editText_taskId"
+        android:layout_alignStart="@+id/editText_taskId"
+        android:layout_below="@+id/spinner_sub1"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:text="@string/addPT"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView_subjects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_deadline_month"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="@string/subjects"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spinner_sub1"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/button_next2"
+        android:layout_alignStart="@+id/button_next2"
+        android:layout_below="@+id/textView_subjects"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="7dp"
+        android:background="#fff" />
+
+    <Spinner
+        android:id="@+id/spinner_sub2"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/button_next2"
+        android:layout_alignRight="@+id/button_next2"
+        android:layout_alignTop="@+id/spinner_sub1"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:background="#fff" />
+
+    <Button
+        android:id="@+id/button_viewAll"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/button_next2"
+        android:layout_alignStart="@+id/button_next2"
+        android:layout_below="@+id/button_next2"
+        android:layout_marginTop="9dp"
+        android:background="@color/colorAccent"
+        android:text="@string/viewPT"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button_load"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/button_viewAll"
+        android:layout_alignStart="@+id/button_viewAll"
+        android:layout_below="@+id/button_viewAll"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorAccent"
+        android:text="@string/loadPT"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button_update"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/button_load"
+        android:layout_alignStart="@+id/button_load"
+        android:layout_below="@+id/button_load"
+        android:layout_marginTop="7dp"
+        android:background="@color/colorAccent"
+        android:text="@string/updatePT"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/button_delete"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/button_update"
+        android:layout_alignStart="@+id/button_update"
+        android:layout_below="@+id/button_update"
+        android:layout_marginTop="7dp"
+        android:background="@color/colorAccent"
+        android:text="@string/deletePT"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/editText_id"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/spinner_daysComp"
+        android:layout_alignBottom="@+id/spinner_daysComp"
+        android:layout_alignLeft="@+id/editText_taskId"
+        android:layout_alignStart="@+id/editText_taskId"
+        android:background="#fff"
+        android:ems="10"
+        android:hint="@string/id"
+        android:inputType="textPersonName"
+        android:paddingLeft="3dp"
+        android:text="@string/noError" />
+
+</RelativeLayout>
